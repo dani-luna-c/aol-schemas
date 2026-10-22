@@ -1,0 +1,3603 @@
+{
+    "$schema":  "./../../schemas/get_producto_combicod.schema.json",
+    "datosGenerales": [
+        {
+            "descripcion": "Forma de pago",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "P_FORMAPAGO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Anual",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "5",
+                    "clave_filtrado": "5",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Mensual",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "9",
+                    "clave_filtrado": "9",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Semestral",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "2",
+                    "clave_filtrado": "2",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Trimestral",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "4",
+                    "clave_filtrado": "4",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Único",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "0",
+                    "clave_filtrado": "0",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 1,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Gestión de cobro",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "P_GESTIONCOBRO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Tarjeta Bancaria",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "TABA",
+                    "clave_filtrado": "TABA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Bancario desde 2º año",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "EFBA",
+                    "clave_filtrado": "EFBA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Oficina/Factura electrónica",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "OFIC",
+                    "clave_filtrado": "OFIC",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Mediador",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "EFEC",
+                    "clave_filtrado": "EFEC",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Inicial tarjeta, sucesivos bancario",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "TABC",
+                    "clave_filtrado": "TABC",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Bancario Compañía",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "BANC",
+                    "clave_filtrado": "BANC",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 2,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Envío de la documentación",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "P_ENVIODOCUMENTACION",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Mediador",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "10",
+                    "clave_filtrado": "10",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Envío sólo a tomador",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "40",
+                    "clave_filtrado": "40",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Certificado al riesgo sin prima",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "42",
+                    "clave_filtrado": "42",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Tomador con copia a mediador",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "30",
+                    "clave_filtrado": "30",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Certificado al riesgo con prima",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "41",
+                    "clave_filtrado": "41",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "No enviar",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "90",
+                    "clave_filtrado": "90",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 3,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Idioma",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "P_IDIOMA",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "English",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "ENGL",
+                    "clave_filtrado": "ENGL",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Català",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CATA",
+                    "clave_filtrado": "CATA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Castellano",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "ESPA",
+                    "clave_filtrado": "ESPA",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 4,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Referencia Externa",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "DTRIES_REFEEXTE",
+            "longitudMaximaTipoDatoAlfanumerico": 0,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 6,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Ref. Externa Alternativa",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "DTRIES_REFXALT",
+            "longitudMaximaTipoDatoAlfanumerico": 0,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 7,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Núm. Póliza Reservado",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "DTRIES_TALONARIO",
+            "longitudMaximaTipoDatoAlfanumerico": 0,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "^\\d{1,9}$",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": 0,
+            "orden": 8,
+            "tipoDato": "entero",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Campo IBAN medio pago banco",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "LICO_CODIIBAN",
+            "longitudMaximaTipoDatoAlfanumerico": 0,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": [
+                {
+                    "codigo": "P.MEDIOPAG",
+                    "listaValoresPermitidos": [
+                        "BANC",
+                        "BAEF",
+                        "EFBA",
+                        "TABC"
+                    ],
+                    "operacion": "IN"
+                }
+            ],
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 8,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        }
+    ],
+    "datosProducto": [],
+    "resultado": {
+        "mensajeUsuario": null,
+        "mensaje": "WARNING",
+        "mensajeDetalle": "[Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010, Error recuperando los parametros de la regla DRPARG1010]",
+        "codigoRespuesta": "1"
+    },
+    "datosTomador": [
+        {
+            "descripcion": "Tipo de documento",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_TIPO_DOCUMENTO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "NIF",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "NIF",
+                    "clave_filtrado": "NIF",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "NIE",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "NIE",
+                    "clave_filtrado": "NIE",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "CIF",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CIF",
+                    "clave_filtrado": "CIF",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 1,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Número de documento",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NUMERO_DOCUMENTO",
+            "longitudMaximaTipoDatoAlfanumerico": 9,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 2,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Nombre",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NOMBRE",
+            "longitudMaximaTipoDatoAlfanumerico": 60,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 3,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Primer apellido",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_APELLIDO1",
+            "longitudMaximaTipoDatoAlfanumerico": 40,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 4,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Segundo apellido",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_APELLIDO2",
+            "longitudMaximaTipoDatoAlfanumerico": 40,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 5,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Fecha de nacimiento",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_FECHA_NACIMIENTO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "^(0[1-9]|[12][0-9]|3[01])[-\/](0[1-9]|1[012])[-\/](20\\d\\d)$",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 6,
+            "tipoDato": "fecha",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Email",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_EMAIL",
+            "longitudMaximaTipoDatoAlfanumerico": 45,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 7,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Teléfono 1",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_TELEFONO1",
+            "longitudMaximaTipoDatoAlfanumerico": 10,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 8,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Teléfono 2",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_TELEFONO2",
+            "longitudMaximaTipoDatoAlfanumerico": 10,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 9,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Tipo de calle",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_TIPOVIA",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Edificio",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "EDIF",
+                    "clave_filtrado": "EDIF",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Glorieta",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "GLTA",
+                    "clave_filtrado": "GLTA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Avenida",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "AVDA",
+                    "clave_filtrado": "AVDA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Masia",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "MASIA",
+                    "clave_filtrado": "MASIA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Pasaje",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PJE",
+                    "clave_filtrado": "PJE",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Riera",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "RIERA",
+                    "clave_filtrado": "RIERA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Autopista",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "AUT",
+                    "clave_filtrado": "AUT",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Bajada",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "BJDA",
+                    "clave_filtrado": "BJDA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Barranco",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "BRNCO",
+                    "clave_filtrado": "BRNCO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Travessera",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "TRAV",
+                    "clave_filtrado": "TRAV",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Barrio",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "BO",
+                    "clave_filtrado": "BO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Carretera",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CRA",
+                    "clave_filtrado": "CRA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Finca",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "FINCA",
+                    "clave_filtrado": "FINCA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Paseo",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PASEO",
+                    "clave_filtrado": "PASEO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Prolongacion",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PROL",
+                    "clave_filtrado": "PROL",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Ronda",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "RONDA",
+                    "clave_filtrado": "RONDA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Via",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "VIA",
+                    "clave_filtrado": "VIA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Calle",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CALLE",
+                    "clave_filtrado": "CALLE",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Camino",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CMNO",
+                    "clave_filtrado": "CMNO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Rambla",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "RBLA",
+                    "clave_filtrado": "RBLA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Urbanizacion",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "URB",
+                    "clave_filtrado": "URB",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Aldea",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "ALDEA",
+                    "clave_filtrado": "ALDEA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Autovia",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "AUT",
+                    "clave_filtrado": "AUT",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Cortijo",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CTJO",
+                    "clave_filtrado": "CTJO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Plaza",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PLAZA",
+                    "clave_filtrado": "PLAZA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Parque",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PQUE",
+                    "clave_filtrado": "PQUE",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Subida",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "SBIDA",
+                    "clave_filtrado": "SBIDA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Casa",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CAS",
+                    "clave_filtrado": "CAS",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Colonia",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CNIA",
+                    "clave_filtrado": "CNIA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Caserio",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CSRIO",
+                    "clave_filtrado": "CSRIO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Poblado",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PBDO",
+                    "clave_filtrado": "PBDO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Placeta",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PCTA",
+                    "clave_filtrado": "PCTA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Poligono",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "POLIG",
+                    "clave_filtrado": "POLIG",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Transversal",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "TRANS",
+                    "clave_filtrado": "TRANS",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Cuesta",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CSTA",
+                    "clave_filtrado": "CSTA",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 10,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Nombre de la calle",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NOMBRE_CALLE",
+            "longitudMaximaTipoDatoAlfanumerico": 60,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 11,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Número de la calle",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NUMERO_CALLE",
+            "longitudMaximaTipoDatoAlfanumerico": 5,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 12,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Portal",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_PORTAL",
+            "longitudMaximaTipoDatoAlfanumerico": 5,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 13,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Escalera",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_ESCALERA",
+            "longitudMaximaTipoDatoAlfanumerico": 5,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 14,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Número de piso",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NUMERO_PISO",
+            "longitudMaximaTipoDatoAlfanumerico": 5,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 15,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Número de puerta",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NUMERO_PUERTA",
+            "longitudMaximaTipoDatoAlfanumerico": 5,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 16,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Otros datos",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_OTROS_DATOS",
+            "longitudMaximaTipoDatoAlfanumerico": 50,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 17,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Código postal",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_CODIGO_POSTAL",
+            "longitudMaximaTipoDatoAlfanumerico": 8,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 18,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Población",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_POBLACION",
+            "longitudMaximaTipoDatoAlfanumerico": 30,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 19,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        }
+    ],
+    "datosRiesgo": [
+        {
+            "descripcion": "Identificador único del riesgo",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_ID",
+            "longitudMaximaTipoDatoAlfanumerico": 256,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 1,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "¿Es un riesgo principal?",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_ESPRINCIPAL",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": null,
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Sí",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "1",
+                    "clave_filtrado": "1",
+                    "esPorDefecto": true
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 2,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Identificador único de su riesgo principal",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_IDPPAL",
+            "longitudMaximaTipoDatoAlfanumerico": 256,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": [
+                {
+                    "codigo": "TR_ESPRINCIPAL",
+                    "listaValoresPermitidos": [
+                        "0"
+                    ],
+                    "operacion": "IN"
+                }
+            ],
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 3,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Tipo de riesgo",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_TIPORIESGO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Vehículo",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_ESPRINCIPAL",
+                            "listaValoresPermitidos": [
+                                "1"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "VEHI",
+                    "clave_filtrado": "VEHI",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 4,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Subtipo de riesgo",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_SUBTIPORIESGO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Bicicleta",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "082",
+                    "clave_filtrado": "082",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Turismo con caravana / remolque",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "306",
+                    "clave_filtrado": "306",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Placas rojas",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "014",
+                    "clave_filtrado": "014",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Remolque turismo / Furgoneta hasta 750 kg",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "099",
+                    "clave_filtrado": "099",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Barredoras",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "115",
+                    "clave_filtrado": "115",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Quad",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "375",
+                    "clave_filtrado": "375",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Vehículo de tres ruedas",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "377",
+                    "clave_filtrado": "377",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Taxi",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "013",
+                    "clave_filtrado": "013",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Caravana",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "304",
+                    "clave_filtrado": "304",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Ciclomotor / Bicicleta / Similares alquiler",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "381",
+                    "clave_filtrado": "381",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Vehículo de 1a categoría uso particular",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "010",
+                    "clave_filtrado": "010",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Turismo alquiler",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "319",
+                    "clave_filtrado": "319",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Vehículo vivienda",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "320",
+                    "clave_filtrado": "320",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Todo terreno / Monovolumen de alquiler",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "323",
+                    "clave_filtrado": "323",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Furgoneta de alquiler hasta 750 kg",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "324",
+                    "clave_filtrado": "324",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Furgoneta hasta 3.500kg hasta 9 plazas",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "310",
+                    "clave_filtrado": "310",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Patinete",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "081",
+                    "clave_filtrado": "081",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Vehículo todo terreno con caravana / remolque",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "302",
+                    "clave_filtrado": "302",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Ambulancia",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "317",
+                    "clave_filtrado": "317",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 5,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Tipo de vehículo",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_VEHI_TIPOVEHI",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Vehículo todo terreno con caravana / remolque",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "302",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Furgoneta hasta 750 kg",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "305",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Bicicleta",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "082",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Turismo con caravana / remolque",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "306",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Microcar / Cuadriciclo",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "002",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Motocicleta mas de 500 cc",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "373",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Vehículo de tres ruedas",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "377",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Taxi",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "013",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Caravana",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "304",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Motocicleta hasta 250 cc",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "370",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Placas rojas",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "014",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Remolque turismo / Furgoneta hasta 750 kg",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "099",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Barredoras",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "115",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Quad",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "375",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Todo terreno / Monovolumen",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "008",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Vehículo de 1a categoría uso particular",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "010",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Remolque turismo / Furgoneta más de 750 kg",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "098",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Turismo",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "001",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Ciclomotor / Similares",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "080",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Moto de campo",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "374",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "A.T.V.",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "376",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Ciclomotor / Bicicleta / Similares alquiler",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "381",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Motocicleta de 250 a 500 cc / Autoescuela",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "371",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Patinete",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "081",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Todo terreno / Monovolumen de alquiler",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "323",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Vehículo vivienda",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "320",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Turismo alquiler",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "319",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Furgoneta de alquiler hasta 750 kg",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "324",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Furgoneta hasta 3.500kg hasta 9 plazas",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "310",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Motocicleta hasta 125 cc",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "369",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Ambulancia",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "317",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 6,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Tipo de Matricula",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_VEHI_TIPODMATR",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Española",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "ESPA",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Extranjera/Especial",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "EXTR",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 7,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Matrícula",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_VEHI_MATRICULA",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 8,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        }
+    ],
+    "infoModalidad": {
+        "gamaCodigo": "AVVE1",
+        "gamaColorFondo": "4997AE",
+        "gamaIcono": "icon-viaje-vehiculos",
+        "gamaDescripcionAbreviada": "Viaje: Vehículos",
+        "modalidadCodigo": "ES00300",
+        "modalidadEstadisticasCodigo": "03",
+        "modalidadDescripcion": "ARAG Asistencia a Turismos y Motos",
+        "gamaDescripcion": "ASISTENCIA EN VIAJE A VEHÍCULOS",
+        "ramoDGSCodigo": "RDGS18",
+        "gamaColorLetra": "000000"
+    },
+    "infoCombicod": {
+        "combicodDescripcion": "E0001 Estándar",
+        "combicodCodigo": "ES00300E0001",
+        "modalidadCCGGDescripcion": "ARAG Asistencia a Turismos y Motos",
+        "modalidadCCGGCodigo": "03"
+    },
+    "datosGarantias": [
+        {
+            "descripcion": "Asistencia médica y sanitaria",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_AMS1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": true,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía AMS1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_AMS1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "&nbsp",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - AMS1 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 1,
+            "articulo": "5.1"
+        },
+        {
+            "descripcion": "Asistencia médica y sanitaria - Nacional",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_AMN1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "AMS1",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía AMN1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_AMN1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "Hasta 900,00 euros por persona",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "900",
+                        "clave_filtrado": "ES00300 - ALLC - AMN1 - 900",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": true,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 2,
+            "articulo": "5.1.1"
+        },
+        {
+            "descripcion": "Asistencia médica y sanitaria - Extranjero",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_AME1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "AMS1",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía AME1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_AME1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "Hasta 3.600,00 euros por persona",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "3600",
+                        "clave_filtrado": "ES00300 - ALLC - AME1 - 3600",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": true,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 3,
+            "articulo": "5.1.2"
+        },
+        {
+            "descripcion": "Gastos odontológicos",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_GOD1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "0AMS",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía GOD1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_GOD1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "Máximo de 30,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "30",
+                        "clave_filtrado": "ES00300 - ALLC - GOD1 - 30",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": true,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 4,
+            "articulo": "5.1.3"
+        },
+        {
+            "descripcion": "Gastos médicos o farmacéuticos",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_AMF1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "AMS1",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía AMF1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_AMF1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "Superiores a 9,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "9",
+                        "clave_filtrado": "ES00300 - ALLC - AMF1 - 9",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": true,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 5,
+            "articulo": "5.1.4"
+        },
+        {
+            "descripcion": "Traslado o repatriación sanitaria de heridos y enfermos",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_TRS1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía TRS1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_TRS1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - TRS1 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 6,
+            "articulo": "5.2"
+        },
+        {
+            "descripcion": "Repatriación o transporte de los demás asegurados",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_RTA1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RTA1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_RTA1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - RTA1 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 7,
+            "articulo": "5.3"
+        },
+        {
+            "descripcion": "Repatriación o transporte de menores",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_RTM2",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RTM2",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_RTM2",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - RTM2 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 8,
+            "articulo": "5.4"
+        },
+        {
+            "descripcion": "Desplazamiento de un familiar en caso de hospitalización",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_DFH2",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": true,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía DFH2",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_DFH2",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "&nbsp",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - DFH2 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 9,
+            "articulo": "5.5"
+        },
+        {
+            "descripcion": "Gastos de desplazamiento",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_GDH1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "DFH2",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía GDH1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_GDH1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - GDH1 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": true,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 10,
+            "articulo": "5.5.1"
+        },
+        {
+            "descripcion": "Gastos de estancia en el extranjero",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_GEE1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "DFH2",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía GEE1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_GEE1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "720,00 euros (72,00 euros x 10 días)",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "720",
+                        "clave_filtrado": "ES00300 - ALLC - GEE1 - 720",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": true,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 11,
+            "articulo": "5.5.2"
+        },
+        {
+            "descripcion": "Convalecencia en hotel",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_CEH2",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía CEH2",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_CEH2",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "720,00 euros (72,00 euros x 10 días)",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "720",
+                        "clave_filtrado": "ES00300 - ALLC - CEH2 - 720",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 12,
+            "articulo": "5.6"
+        },
+        {
+            "descripcion": "Repatriación o transporte del Asegurado fallecido",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_RAF2",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RAF2",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_RAF2",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - RAF2 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 13,
+            "articulo": "5.7"
+        },
+        {
+            "descripcion": "Regreso anticipado",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_RFF2",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RFF2",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_RFF2",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - RFF2 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 14,
+            "articulo": "5.8"
+        },
+        {
+            "descripcion": "Búsqueda, localización y envío de equipajes extraviados",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_BEE2",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía BEE2",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_BEE2",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - BEE2 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 15,
+            "articulo": "5.9"
+        },
+        {
+            "descripcion": "Transmisión de mensajes urgentes",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_TMU2",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía TMU2",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_TMU2",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "Servicio ARAG",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - TMU2 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 16,
+            "articulo": "5.10"
+        },
+        {
+            "descripcion": "Defensa de la responsabilidad penal en el extranjero",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_DPE1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [
+                {
+                    "descripcion": "Fianzas",
+                    "valorMinimoDatoNumerico": null,
+                    "codigo": "A_03_DPE1_L-FIANZAS",
+                    "longitudMaximaTipoDatoAlfanumerico": 256,
+                    "esOpcional": false,
+                    "valorPorDefectoTipoDatosNoLista": "",
+                    "formato": "",
+                    "listaCondicionesValidacion": null,
+                    "copiarValorDelCampo": "R_03_L-GASTOS",
+                    "listaCondicionesActivacion": null,
+                    "listaValoresParaTipoDatoLista": [
+                        {
+                            "descripcion": "3.000,00 euros",
+                            "listaCondicionesActivacion": null,
+                            "codigo": "3000",
+                            "clave_filtrado": "ES00300 - ALLC - DPE1 - L-FIANZAS - 3000",
+                            "esPorDefecto": true
+                        }
+                    ],
+                    "numeroDecimalesDatoNumerico": null,
+                    "orden": 0,
+                    "tipoDato": "lista",
+                    "valorMaximoDatoNumerico": null
+                }
+            ],
+            "limite": {
+                "descripcion": "Límite de la garantía DPE1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_DPE1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "3.000,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "3000",
+                        "clave_filtrado": "ES00300 - ALLC - DPE1 - 3000",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 17,
+            "articulo": "5.11"
+        },
+        {
+            "descripcion": "Información legal en el extranjero",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_ILE3",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía ILE3",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_ILE3",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "Servicio ARAG",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - ILE3 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 18,
+            "articulo": "5.12"
+        },
+        {
+            "descripcion": "Reclamación de daños en el extranjero",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_RDC3",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RDC3",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_RDC3",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "3.000,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "3000",
+                        "clave_filtrado": "ES00300 - ALLC - RDC3 - 3000",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 19,
+            "articulo": "5.13"
+        },
+        {
+            "descripcion": "Reparación de urgencia en carretera",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_RUC1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RUC1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_RUC1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "60,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "60",
+                        "clave_filtrado": "ES00300 - ALLC - RUC1 - 60",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 20,
+            "articulo": "6.1"
+        },
+        {
+            "descripcion": "Rescate",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_RYS2",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RYS2",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_RYS2",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "600,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "600",
+                        "clave_filtrado": "ES00300 - ALLC - RYS2 - 600",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 21,
+            "articulo": "6.2"
+        },
+        {
+            "descripcion": "Remolcaje del vehículo y traslado de los asegurados",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_RAA1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RAA1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_RAA1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "150,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "150",
+                        "clave_filtrado": "ES00300 - ALLC - RAA1 - 150",
+                        "esPorDefecto": true
+                    },
+                    {
+                        "descripcion": "200,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "200",
+                        "clave_filtrado": "ES00300 - ALLC - RAA1 - 200",
+                        "esPorDefecto": false
+                    },
+                    {
+                        "descripcion": "250,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "250",
+                        "clave_filtrado": "ES00300 - ALLC - RAA1 - 250",
+                        "esPorDefecto": false
+                    },
+                    {
+                        "descripcion": "300,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "300",
+                        "clave_filtrado": "ES00300 - ALLC - RAA1 - 300",
+                        "esPorDefecto": false
+                    },
+                    {
+                        "descripcion": "600,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            },
+                            {
+                                "codigo": "TR_TIPORIESGO",
+                                "listaValoresPermitidos": [
+                                    "VEHI"
+                                ],
+                                "operacion": "IN"
+                            },
+                            {
+                                "codigo": "TR_SUBTIPORIESGO",
+                                "listaValoresPermitidos": [
+                                    "320"
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "600",
+                        "clave_filtrado": "ES00300 - ALLC - RAA1 - 600 - VEHI.320",
+                        "esPorDefecto": false
+                    },
+                    {
+                        "descripcion": "600,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            },
+                            {
+                                "codigo": "TR_TIPORIESGO",
+                                "listaValoresPermitidos": [
+                                    "VEHI"
+                                ],
+                                "operacion": "IN"
+                            },
+                            {
+                                "codigo": "TR_SUBTIPORIESGO",
+                                "listaValoresPermitidos": [
+                                    "304"
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "600",
+                        "clave_filtrado": "ES00300 - ALLC - RAA1 - 600 - VEHI.304",
+                        "esPorDefecto": false
+                    },
+                    {
+                        "descripcion": "900,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            },
+                            {
+                                "codigo": "TR_TIPORIESGO",
+                                "listaValoresPermitidos": [
+                                    "VEHI"
+                                ],
+                                "operacion": "IN"
+                            },
+                            {
+                                "codigo": "TR_SUBTIPORIESGO",
+                                "listaValoresPermitidos": [
+                                    "320"
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "900",
+                        "clave_filtrado": "ES00300 - ALLC - RAA1 - 900 - VEHI.320",
+                        "esPorDefecto": false
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 22,
+            "articulo": "6.3"
+        },
+        {
+            "descripcion": "Gastos de transporte del Asegurado para recoger el vehículo averiado, o envío de un conductor",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_RVA1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RVA1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_RVA1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - RVA1 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 26,
+            "articulo": "6.4"
+        },
+        {
+            "descripcion": "Envío de piezas de recambio",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_EPR1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía EPR1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_EPR1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - EPR1 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 27,
+            "articulo": "6.5"
+        },
+        {
+            "descripcion": "Envío de chófer profesional",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_ECP1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía ECP1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_ECP1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - ECP1 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 28,
+            "articulo": "6.6"
+        },
+        {
+            "descripcion": "Repatriación o transporte del vehículo averiado o robado",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_RTV1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RTV1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_RTV1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "Hasta localidad de residencia del Asegurado de no poder ser reparado en 72h",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "72",
+                        "clave_filtrado": "ES00300 - ALLC - RTV1 - 72",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 29,
+            "articulo": "6.7"
+        },
+        {
+            "descripcion": "Prestaciones a los Asegurados por inmovilización del vehículo a causa de accidente o avería o en caso de robo del vehículo",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_PRA1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": true,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía PRA1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_PRA1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "&nbsp",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - PRA1 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 30,
+            "articulo": "6.8"
+        },
+        {
+            "descripcion": "Gastos de hotel",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_GIH1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "PRA1",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía GIH1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_GIH1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "144,00 euros (72,00 euros x 2 días)",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "144",
+                        "clave_filtrado": "ES00300 - ALLC - GIH1 - 144",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": true,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 31,
+            "articulo": "6.8.a"
+        },
+        {
+            "descripcion": "Traslado o repatriación de los asegurados",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_TRI1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "PRA1",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía TRI1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_TRI1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "La totalidad de su coste",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - TRI1 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": true,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 32,
+            "articulo": "6.8.b"
+        },
+        {
+            "descripcion": "Defensa penal por accidente de circulación derivada de los equipajes en el extranjero",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_DEE1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [
+                {
+                    "descripcion": "Fianzas",
+                    "valorMinimoDatoNumerico": null,
+                    "codigo": "A_03_DEE1_L-FIANZAS",
+                    "longitudMaximaTipoDatoAlfanumerico": 256,
+                    "esOpcional": false,
+                    "valorPorDefectoTipoDatosNoLista": "",
+                    "formato": "",
+                    "listaCondicionesValidacion": null,
+                    "copiarValorDelCampo": "R_03_L-GASTOS",
+                    "listaCondicionesActivacion": null,
+                    "listaValoresParaTipoDatoLista": [
+                        {
+                            "descripcion": "3.000,00 euros",
+                            "listaCondicionesActivacion": null,
+                            "codigo": "3000",
+                            "clave_filtrado": "ES00300 - ALLC - DEE1 - L-FIANZAS - 3000",
+                            "esPorDefecto": true
+                        }
+                    ],
+                    "numeroDecimalesDatoNumerico": null,
+                    "orden": 0,
+                    "tipoDato": "lista",
+                    "valorMaximoDatoNumerico": null
+                }
+            ],
+            "limite": {
+                "descripcion": "Límite de la garantía DEE1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_DEE1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "3.000,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "3000",
+                        "clave_filtrado": "ES00300 - ALLC - DEE1 - 3000",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 33,
+            "articulo": "6.9"
+        },
+        {
+            "descripcion": "Reclamación de daños materiales ocasionados a los equipajes transportados en el extranjero",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_REE1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía REE1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_REE1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "3.000,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "3000",
+                        "clave_filtrado": "ES00300 - ALLC - REE1 - 3000",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 34,
+            "articulo": "6.10"
+        },
+        {
+            "descripcion": "Pérdida de las llaves del vehículo asegurado",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_PLV1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía PLV1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_PLV1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "120,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "120",
+                        "clave_filtrado": "ES00300 - ALLC - PLV1 - 120",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 35,
+            "articulo": "6.11"
+        },
+        {
+            "descripcion": "Asistencia jurídica telefónica",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_03_AJT11",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía AJT11",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_03_AJT11",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "Servicio ARAG",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_03_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "1",
+                        "clave_filtrado": "ES00300 - ALLC - AJT11 - 1",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 36,
+            "articulo": ""
+        }
+    ],
+    "datosRiesgoProducto": [
+        {
+            "descripcion": "Ámbito",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "R_03_AMBITO",
+            "longitudMaximaTipoDatoAlfanumerico": 256,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "2",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": [],
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "España, Andorra, Gibraltar y Portugal (sin asistencia médica nacional)",
+                    "listaCondicionesActivacion": [],
+                    "codigo": "10",
+                    "clave_filtrado": "10",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Europa y países ribereños del Mediterráneo (sin asistencia médica nacional)",
+                    "listaCondicionesActivacion": [],
+                    "codigo": "3",
+                    "clave_filtrado": "3",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "España, Andorra y Gibraltar (sin asistencia médica nacional)",
+                    "listaCondicionesActivacion": [],
+                    "codigo": "5",
+                    "clave_filtrado": "5",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "España, Andorra y Gibraltar",
+                    "listaCondicionesActivacion": [],
+                    "codigo": "1",
+                    "clave_filtrado": "1",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "España, Andorra y Gibraltar (sin asistencia médica nacional)",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        },
+                        {
+                            "codigo": "TR_SUBTIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "115"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "5",
+                    "clave_filtrado": "5",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Europa y países ribereños del Mediterráneo",
+                    "listaCondicionesActivacion": [],
+                    "codigo": "2",
+                    "clave_filtrado": "2",
+                    "esPorDefecto": true
+                },
+                {
+                    "descripcion": "España, Andorra, Gibraltar y Portugal",
+                    "listaCondicionesActivacion": [],
+                    "codigo": "9",
+                    "clave_filtrado": "9",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "España, Andorra y Gibraltar",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "VEHI"
+                            ],
+                            "operacion": "IN"
+                        },
+                        {
+                            "codigo": "TR_SUBTIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "115"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "1",
+                    "clave_filtrado": "1",
+                    "esPorDefecto": true
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 1,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Límite de gastos",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "R_03_L-GASTOS",
+            "longitudMaximaTipoDatoAlfanumerico": 256,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "3000",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": [],
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "3.000,00 euros",
+                    "listaCondicionesActivacion": [],
+                    "codigo": "3000",
+                    "clave_filtrado": "3000",
+                    "esPorDefecto": true
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 2,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        }
+    ]
+}

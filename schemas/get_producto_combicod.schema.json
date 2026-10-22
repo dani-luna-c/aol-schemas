@@ -1,0 +1,489 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Esquema de producto para el get de productoCombicodConsulta",
+  "description": "Estructura JSON construida a partir de la response del GET de productoCombicodConsulta y el Excel de generación empresa_mediador_producto_combicod_GET.",
+  "type": "object",
+  "$defs": {
+    "TCampo": {
+      "type": "object",
+      "properties": {
+        "orden": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "codigo": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "descripcion": {
+          "type": "string"
+        },
+        "esOpcional": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "tipoDato": {
+          "type": "string",
+          "enum": [
+            "lista",
+            "decimal",
+            "entero",
+            "fecha",
+            "alfanumerico"
+          ]
+        },
+        "formato": {
+          "type": "string"
+        },
+        "valorPorDefectoTipoDatosNoLista": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "longitudMaximaTipoDatoAlfanumerico": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "valorMinimoDatoNumerico": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "valorMaximoDatoNumerico": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "numeroDecimalesDatoNumerico": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "copiarValorDelCampo": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "listaCondicionesActivacion": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/$defs/TCondicionCampo"
+          }
+        },
+        "listaCondicionesValidacion": {
+          "type":  [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/$defs/TCondicionCampo"
+          }
+        },
+        "listaValoresParaTipoDatoLista": {
+          "type":  [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/$defs/TValoresFiltrados"
+          }
+        }
+      },
+      "required": [
+        "orden",
+        "codigo",
+        "descripcion",
+        "esOpcional",
+        "tipoDato",
+        "formato",
+        "valorPorDefectoTipoDatosNoLista",
+        "longitudMaximaTipoDatoAlfanumerico",
+        "valorMinimoDatoNumerico",
+        "valorMaximoDatoNumerico",
+        "numeroDecimalesDatoNumerico",
+        "copiarValorDelCampo",
+        "listaCondicionesActivacion",
+        "listaCondicionesValidacion",
+        "listaValoresParaTipoDatoLista"
+      ],
+      "additionalProperties": false
+    },
+    "TCondicionCampo": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "operacion": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "listaValoresPermitidos": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 256
+          }
+        }
+      },
+      "required": [
+        "codigo",
+        "operacion",
+        "listaValoresPermitidos"
+      ],
+      "additionalProperties": false
+    },
+    "TValoresFiltrados": {
+      "type": "object",
+      "properties": {
+        "clave_filtrado": {
+          "type": "string"
+        },
+        "codigo": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "descripcion": {
+          "type": "string"
+        },
+        "esPorDefecto": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "listaCondicionesActivacion": {
+          "type":  [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/$defs/TCondicionCampo"
+          }
+        }
+      },
+      "required": [
+        "clave_filtrado",
+        "codigo",
+        "descripcion",
+        "esPorDefecto"
+      ],
+      "additionalProperties": false
+    },
+    "TGarantia": {
+      "type": "object",
+      "properties": {
+        "orden": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "codigo": {
+          "type": "string"
+        },
+        "articulo": {
+          "type": "string"
+        },
+        "descripcion": {
+          "type": "string"
+        },
+        "esOpcional": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "estaContratadaPorDefecto": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "necesitaGarantiaPrincipal": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "codigoDeLaGarantiaPrincipal": {
+          "type": "string"
+        },
+        "necesitaGarantiasSecundarias": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "listaGarantiasAContratarAlContratar": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 256
+          }
+        },
+        "listaGarantiasADescontratarAlContratar": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 256
+          }
+        },
+        "listaGarantiasAContratarAlDescontratar": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 256
+          }
+        },
+        "listaGarantiasADescontratarAlDescontratar": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 256
+          }
+        },
+        "listaCondicionesContratacionAutomatica": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "codigo": {
+                "type": "string",
+                "maxLength": 256
+              },
+              "operacion": {
+                "type": "string",
+                "maxLength": 256
+              },
+              "listaValoresPermitidos": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 256
+                }
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "codigo",
+              "operacion",
+              "listaValoresPermitidos"
+            ]
+          }
+        },
+        "listaCondicionesDescontratacionAutomatica": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "codigo": {
+                "type": "string",
+                "maxLength": 256
+              },
+              "operacion": {
+                "type": "string",
+                "maxLength": 256
+              },
+              "listaValoresPermitidos": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 256
+                }
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "codigo",
+              "operacion",
+              "listaValoresPermitidos"
+            ]
+          }
+        },
+        "limite": {
+          "$ref": "#/$defs/TCampo"
+        },
+        "listaCamposAtributosDeGarantia": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/TCampo"
+          }
+        }
+      },
+      "required": [
+        "orden",
+        "codigo",
+        "articulo",
+        "descripcion",
+        "esOpcional",
+        "estaContratadaPorDefecto",
+        "necesitaGarantiaPrincipal",
+        "codigoDeLaGarantiaPrincipal",
+        "necesitaGarantiasSecundarias",
+        "listaGarantiasAContratarAlContratar",
+        "listaGarantiasADescontratarAlContratar",
+        "listaGarantiasAContratarAlDescontratar",
+        "listaGarantiasADescontratarAlDescontratar",
+        "listaCondicionesContratacionAutomatica",
+        "listaCondicionesDescontratacionAutomatica",
+        "limite",
+        "listaCamposAtributosDeGarantia"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "datosGenerales": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/TCampo"
+      }
+    },
+    "datosTomador": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/TCampo"
+      }
+    },
+    "datosProducto": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/TCampo"
+      }
+    },
+    "datosRiesgo": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/TCampo"
+      }
+    },
+    "datosRiesgoProducto": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/TCampo"
+      }
+    },
+    "datosGarantias": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/TGarantia"
+      }
+    },
+    "infoModalidad": {
+      "type": "object",
+      "properties": {
+        "modalidadCodigo": {
+          "type": "string"
+        },
+        "modalidadEstadisticasCodigo": {
+          "type": "string"
+        },
+        "modalidadDescripcion": {
+          "type": "string"
+        },
+        "ramoDGSCodigo": {
+          "type": "string"
+        },
+        "gamaCodigo": {
+          "type": "string"
+        },
+        "gamaDescripcion": {
+          "type": "string"
+        },
+        "gamaDescripcionAbreviada": {
+          "type": "string"
+        },
+        "gamaColorFondo": {
+          "type": "string"
+        },
+        "gamaColorLetra": {
+          "type": "string"
+        },
+        "gamaIcono": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "modalidadCodigo",
+        "modalidadEstadisticasCodigo",
+        "modalidadDescripcion",
+        "ramoDGSCodigo",
+        "gamaCodigo",
+        "gamaDescripcion",
+        "gamaDescripcionAbreviada",
+        "gamaColorFondo",
+        "gamaColorLetra",
+        "gamaIcono"
+      ],
+      "additionalProperties": false
+    },
+    "infoCombicod": {
+      "type": "object",
+      "properties": {
+        "combicodCodigo": {
+          "type": "string"
+        },
+        "combicodDescripcion": {
+          "type": "string"
+        },
+        "CCGGCodigo": {
+          "type": "string"
+        },
+        "CCGGDescripcion": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "combicodCodigo",
+        "combicodDescripcion",
+        "CCGGCodigo",
+        "CCGGDescripcion"
+      ],
+      "additionalProperties": false
+    },
+    "resultado": {
+      "type": "object",
+      "properties": {
+        "mensajeUsuario": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "mensaje": {
+          "type": "string"
+        },
+        "mensajeDetalle": {
+          "type": "string"
+        },
+        "codigoRespuesta": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "datosGenerales",
+    "datosTomador",
+    "datosProducto",
+    "datosRiesgo",
+    "datosRiesgoProducto",
+    "datosGarantias",
+    "infoModalidad",
+    "infoCombicod"
+  ],
+  "additionalProperties": false
+}
