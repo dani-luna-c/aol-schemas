@@ -22,13 +22,17 @@
         },
         "esOpcional": {
           "type": [
-            "boolean",
-            "null"
+            "null",
+            "boolean"            
           ]
         },
         "tipoDato": {
-          "type": "string",
+          "type": [
+            "null",
+            "string"
+          ],
           "enum": [
+            null,
             "lista",
             "decimal",
             "entero",
@@ -37,10 +41,16 @@
           ]
         },
         "formato": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "valorPorDefectoTipoDatosNoLista": {
-          "type": "string",
+          "type": [
+            "null",
+            "string"
+          ],
           "maxLength": 256
         },
         "longitudMaximaTipoDatoAlfanumerico": {
@@ -68,7 +78,10 @@
           ]
         },
         "copiarValorDelCampo": {
-          "type": "string",
+          "type": [
+            "null",
+            "string"
+          ],
           "maxLength": 256
         },
         "listaCondicionesActivacion": {
@@ -438,18 +451,18 @@
         "combicodDescripcion": {
           "type": "string"
         },
-        "CCGGCodigo": {
+        "modalidadCCGGCodigo": {
           "type": "string"
         },
-        "CCGGDescripcion": {
+        "modalidadCCGGDescripcion": {
           "type": "string"
         }
       },
       "required": [
         "combicodCodigo",
         "combicodDescripcion",
-        "CCGGCodigo",
-        "CCGGDescripcion"
+        "modalidadCCGGCodigo",
+        "modalidadCCGGDescripcion"
       ],
       "additionalProperties": false
     },
