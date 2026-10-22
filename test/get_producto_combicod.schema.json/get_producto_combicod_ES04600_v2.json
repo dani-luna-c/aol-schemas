@@ -1,0 +1,1523 @@
+{
+    "$schema":  "./../../schemas/get_producto_combicod.schema.json",
+    "datosGenerales": [
+        {
+            "descripcion": "Forma de pago",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "P_FORMAPAGO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Único",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "0",
+                    "clave_filtrado": "0",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 1,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Gestión de cobro",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "P_GESTIONCOBRO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Bancario Compañía",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "BANC",
+                    "clave_filtrado": "BANC",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Tarjeta Bancaria",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "TABA",
+                    "clave_filtrado": "TABA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Mediador",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "EFEC",
+                    "clave_filtrado": "EFEC",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Bancario desde 2º año",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "EFBA",
+                    "clave_filtrado": "EFBA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Oficina/Factura electrónica",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "OFIC",
+                    "clave_filtrado": "OFIC",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Inicial tarjeta, sucesivos bancario",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "TABC",
+                    "clave_filtrado": "TABC",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 2,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Envío de la documentación",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "P_ENVIODOCUMENTACION",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Mediador",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "10",
+                    "clave_filtrado": "10",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Envío sólo a tomador",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "40",
+                    "clave_filtrado": "40",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Certificado al riesgo sin prima",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "42",
+                    "clave_filtrado": "42",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Tomador con copia a mediador",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "30",
+                    "clave_filtrado": "30",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Certificado al riesgo con prima",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "41",
+                    "clave_filtrado": "41",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "No enviar",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "90",
+                    "clave_filtrado": "90",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 3,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Idioma",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "P_IDIOMA",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Castellano",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "ESPA",
+                    "clave_filtrado": "ESPA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "English",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "ENGL",
+                    "clave_filtrado": "ENGL",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Català",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CATA",
+                    "clave_filtrado": "CATA",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 4,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Referencia Externa",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "DTRIES_REFEEXTE",
+            "longitudMaximaTipoDatoAlfanumerico": 0,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 6,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Ref. Externa Alternativa",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "DTRIES_REFXALT",
+            "longitudMaximaTipoDatoAlfanumerico": 0,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 7,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Núm. Póliza Reservado",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "DTRIES_TALONARIO",
+            "longitudMaximaTipoDatoAlfanumerico": 0,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "^\\d{1,9}$",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": 0,
+            "orden": 8,
+            "tipoDato": "entero",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Campo IBAN medio pago banco",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "LICO_CODIIBAN",
+            "longitudMaximaTipoDatoAlfanumerico": 0,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": [
+                {
+                    "codigo": "P.MEDIOPAG",
+                    "listaValoresPermitidos": [
+                        "BANC",
+                        "BAEF",
+                        "EFBA",
+                        "TABC"
+                    ],
+                    "operacion": "IN"
+                }
+            ],
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 8,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        }
+    ],
+    "datosProducto": [
+        {
+            "descripcion": "Fecha inicio del viaje",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "M_46_FECHA-INICIO-VIAJE",
+            "longitudMaximaTipoDatoAlfanumerico": 0,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "^(0[1-9]|[12][0-9]|3[01])[-\/](0[1-9]|1[012])[-\/](20\\d\\d)$",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 3,
+            "tipoDato": "fecha",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Fecha fin del viaje",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "M_46_FECHA-FIN-VIAJE",
+            "longitudMaximaTipoDatoAlfanumerico": 0,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "0",
+            "formato": "^(0[1-9]|[12][0-9]|3[01])[-\/](0[1-9]|1[012])[-\/](20\\d\\d)$",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 4,
+            "tipoDato": "fecha",
+            "valorMaximoDatoNumerico": null
+        }
+    ],
+    "resultado": {
+        "mensajeUsuario": null,
+        "mensaje": "OK",
+        "mensajeDetalle": "El servicio getCombicod se ha ejecutado correctamente",
+        "codigoRespuesta": "0"
+    },
+    "datosTomador": [
+        {
+            "descripcion": "Tipo de documento",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_TIPO_DOCUMENTO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "NIF",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "NIF",
+                    "clave_filtrado": "NIF",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "NIE",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "NIE",
+                    "clave_filtrado": "NIE",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "CIF",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CIF",
+                    "clave_filtrado": "CIF",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 1,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Número de documento",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NUMERO_DOCUMENTO",
+            "longitudMaximaTipoDatoAlfanumerico": 9,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 2,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Nombre",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NOMBRE",
+            "longitudMaximaTipoDatoAlfanumerico": 60,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 3,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Primer apellido",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_APELLIDO1",
+            "longitudMaximaTipoDatoAlfanumerico": 40,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 4,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Segundo apellido",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_APELLIDO2",
+            "longitudMaximaTipoDatoAlfanumerico": 40,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 5,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Fecha de nacimiento",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_FECHA_NACIMIENTO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "^(0[1-9]|[12][0-9]|3[01])[-\/](0[1-9]|1[012])[-\/](20\\d\\d)$",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 6,
+            "tipoDato": "fecha",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Email",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_EMAIL",
+            "longitudMaximaTipoDatoAlfanumerico": 45,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 7,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Teléfono 1",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_TELEFONO1",
+            "longitudMaximaTipoDatoAlfanumerico": 10,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 8,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Teléfono 2",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_TELEFONO2",
+            "longitudMaximaTipoDatoAlfanumerico": 10,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 9,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Tipo de calle",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_TIPOVIA",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Edificio",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "EDIF",
+                    "clave_filtrado": "EDIF",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Glorieta",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "GLTA",
+                    "clave_filtrado": "GLTA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Avenida",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "AVDA",
+                    "clave_filtrado": "AVDA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Masia",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "MASIA",
+                    "clave_filtrado": "MASIA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Pasaje",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PJE",
+                    "clave_filtrado": "PJE",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Riera",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "RIERA",
+                    "clave_filtrado": "RIERA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Bajada",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "BJDA",
+                    "clave_filtrado": "BJDA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Autopista",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "AUT",
+                    "clave_filtrado": "AUT",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Barranco",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "BRNCO",
+                    "clave_filtrado": "BRNCO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Travessera",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "TRAV",
+                    "clave_filtrado": "TRAV",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Barrio",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "BO",
+                    "clave_filtrado": "BO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Carretera",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CRA",
+                    "clave_filtrado": "CRA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Finca",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "FINCA",
+                    "clave_filtrado": "FINCA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Paseo",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PASEO",
+                    "clave_filtrado": "PASEO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Prolongacion",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PROL",
+                    "clave_filtrado": "PROL",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Ronda",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "RONDA",
+                    "clave_filtrado": "RONDA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Via",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "VIA",
+                    "clave_filtrado": "VIA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Calle",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CALLE",
+                    "clave_filtrado": "CALLE",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Camino",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CMNO",
+                    "clave_filtrado": "CMNO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Rambla",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "RBLA",
+                    "clave_filtrado": "RBLA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Urbanizacion",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "URB",
+                    "clave_filtrado": "URB",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Aldea",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "ALDEA",
+                    "clave_filtrado": "ALDEA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Autovia",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "AUT",
+                    "clave_filtrado": "AUT",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Cortijo",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CTJO",
+                    "clave_filtrado": "CTJO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Parque",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PQUE",
+                    "clave_filtrado": "PQUE",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Plaza",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PLAZA",
+                    "clave_filtrado": "PLAZA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Subida",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "SBIDA",
+                    "clave_filtrado": "SBIDA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Casa",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CAS",
+                    "clave_filtrado": "CAS",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Colonia",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CNIA",
+                    "clave_filtrado": "CNIA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Caserio",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CSRIO",
+                    "clave_filtrado": "CSRIO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Poblado",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PBDO",
+                    "clave_filtrado": "PBDO",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Placeta",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PCTA",
+                    "clave_filtrado": "PCTA",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Poligono",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "POLIG",
+                    "clave_filtrado": "POLIG",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Transversal",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "TRANS",
+                    "clave_filtrado": "TRANS",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Cuesta",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CSTA",
+                    "clave_filtrado": "CSTA",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 10,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Nombre de la calle",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NOMBRE_CALLE",
+            "longitudMaximaTipoDatoAlfanumerico": 60,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 11,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Número de la calle",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NUMERO_CALLE",
+            "longitudMaximaTipoDatoAlfanumerico": 5,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 12,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Portal",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_PORTAL",
+            "longitudMaximaTipoDatoAlfanumerico": 5,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 13,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Escalera",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_ESCALERA",
+            "longitudMaximaTipoDatoAlfanumerico": 5,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 14,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Número de piso",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NUMERO_PISO",
+            "longitudMaximaTipoDatoAlfanumerico": 5,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 15,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Número de puerta",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_NUMERO_PUERTA",
+            "longitudMaximaTipoDatoAlfanumerico": 5,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 16,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Otros datos",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_OTROS_DATOS",
+            "longitudMaximaTipoDatoAlfanumerico": 50,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 17,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Código postal",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_CODIGO_POSTAL",
+            "longitudMaximaTipoDatoAlfanumerico": 8,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 18,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Población",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "T_POBLACION",
+            "longitudMaximaTipoDatoAlfanumerico": 30,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 19,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        }
+    ],
+    "datosRiesgo": [
+        {
+            "descripcion": "Identificador único del riesgo",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_ID",
+            "longitudMaximaTipoDatoAlfanumerico": 256,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 1,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "¿Es un riesgo principal?",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_ESPRINCIPAL",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": null,
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Sí",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "1",
+                    "clave_filtrado": "1",
+                    "esPorDefecto": true
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 2,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Identificador único de su riesgo principal",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_IDPPAL",
+            "longitudMaximaTipoDatoAlfanumerico": 256,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": [
+                {
+                    "codigo": "TR_ESPRINCIPAL",
+                    "listaValoresPermitidos": [
+                        "0"
+                    ],
+                    "operacion": "IN"
+                }
+            ],
+            "listaValoresParaTipoDatoLista": null,
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 3,
+            "tipoDato": "alfanumerico",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Tipo de riesgo",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_TIPORIESGO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Persona",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_ESPRINCIPAL",
+                            "listaValoresPermitidos": [
+                                "1"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "PERS",
+                    "clave_filtrado": "PERS",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 4,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Subtipo de riesgo",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_SUBTIPORIESGO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "PERSONA",
+                    "listaCondicionesActivacion": [
+                        {
+                            "codigo": "TR_TIPORIESGO",
+                            "listaValoresPermitidos": [
+                                "PERS"
+                            ],
+                            "operacion": "IN"
+                        }
+                    ],
+                    "codigo": "000",
+                    "clave_filtrado": "000",
+                    "esPorDefecto": true
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 5,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Tipo de Persona",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_TIPOPERS",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Persona física",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PFIS",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 6,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Tipo de Documento",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_TIPODOCU",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "NIF Persona Física",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "NIF",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "NIE Persona Física Extranjera",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "NIE",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "CIF Persona Jurídica",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "CIF",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Pasaporte",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "PAS",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Menor",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "MENOR",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Ficticio persona física",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "FICF",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Ficticio persona jurídica",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "FICJ",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 7,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Número de documento",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_NUMEDOCU",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 8,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Nombre",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_NOMBPERS",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 9,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Primer apellido",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_APE1PERS",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 10,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Segundo apellido",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_APE2PERS",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 11,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Fecha de nacimiento",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_FECHNACI",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "^(0[1-9]|[12][0-9]|3[01])[-\/](0[1-9]|1[012])[-\/](20\\d\\d)$",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 12,
+            "tipoDato": "fecha",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Sexo",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_SEXO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "Hombre",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "H",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                },
+                {
+                    "descripcion": "Mujer",
+                    "listaCondicionesActivacion": null,
+                    "codigo": "M",
+                    "clave_filtrado": "",
+                    "esPorDefecto": false
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 13,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Teléfono",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_TELEFONO",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 14,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Teléfono 2",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_TELEFONO2",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 15,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Email",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "TR_PERS_EMAIL",
+            "longitudMaximaTipoDatoAlfanumerico": null,
+            "esOpcional": true,
+            "valorPorDefectoTipoDatosNoLista": "",
+            "formato": null,
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": "",
+            "listaCondicionesActivacion": null,
+            "listaValoresParaTipoDatoLista": [],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 16,
+            "tipoDato": null,
+            "valorMaximoDatoNumerico": null
+        }
+    ],
+    "infoModalidad": {
+        "gamaCodigo": "MICR1",
+        "gamaColorFondo": "7EB392",
+        "gamaIcono": "icon-particulares",
+        "gamaDescripcionAbreviada": "Particulares",
+        "modalidadCodigo": "ES04600",
+        "modalidadEstadisticasCodigo": "46",
+        "modalidadDescripcion": "ARAG Pasajero",
+        "gamaDescripcion": "COBERTURA JURÍDICA PARA PARTICULARES",
+        "ramoDGSCodigo": "RDGS17",
+        "gamaColorLetra": "000000"
+    },
+    "infoCombicod": {
+        "combicodDescripcion": "E0001 ARAG Pasajero - Venta conjunta",
+        "combicodCodigo": "ES04600E0001",
+        "modalidadCCGGDescripcion": "ARAG Pasajero",
+        "modalidadCCGGCodigo": "46"
+    },
+    "datosGarantias": [
+        {
+            "descripcion": "Reclamación de la compensación por incumplimiento del contrato de transporte aéreo",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_46_RRC1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [
+                {
+                    "descripcion": "Límite libre elección",
+                    "valorMinimoDatoNumerico": null,
+                    "codigo": "A_46_RRC1_L-LIBRE-ELEC",
+                    "longitudMaximaTipoDatoAlfanumerico": 256,
+                    "esOpcional": false,
+                    "valorPorDefectoTipoDatosNoLista": "",
+                    "formato": "",
+                    "listaCondicionesValidacion": null,
+                    "copiarValorDelCampo": "R_46_L-LIBRE-ELEC",
+                    "listaCondicionesActivacion": null,
+                    "listaValoresParaTipoDatoLista": [
+                        {
+                            "descripcion": "2.000,00 euros",
+                            "listaCondicionesActivacion": null,
+                            "codigo": "2000",
+                            "clave_filtrado": "ES04600 - ALLC - RRC1 - L-LIBRE-ELEC - 2000",
+                            "esPorDefecto": true
+                        }
+                    ],
+                    "numeroDecimalesDatoNumerico": null,
+                    "orden": 1,
+                    "tipoDato": "lista",
+                    "valorMaximoDatoNumerico": null
+                }
+            ],
+            "limite": {
+                "descripcion": "Límite de la garantía RRC1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_46_RRC1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "R_46_L-GASTOS",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "2.000,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_46_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "2000",
+                        "clave_filtrado": "ES04600 - ALLC - RRC1 - 2000",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 1,
+            "articulo": "3.1"
+        },
+        {
+            "descripcion": "Reclamación por recargos indebidos por combustible y adelanto del importe del recargo",
+            "listaGarantiasAContratarAlContratar": [],
+            "listaGarantiasADescontratarAlContratar": [],
+            "codigo": "C_46_RRA1",
+            "estaContratadaPorDefecto": true,
+            "codigoDeLaGarantiaPrincipal": "",
+            "esOpcional": false,
+            "necesitaGarantiasSecundarias": false,
+            "listaCamposAtributosDeGarantia": [],
+            "limite": {
+                "descripcion": "Límite de la garantía RRA1",
+                "valorMinimoDatoNumerico": null,
+                "codigo": "L_46_RRA1",
+                "longitudMaximaTipoDatoAlfanumerico": null,
+                "esOpcional": false,
+                "valorPorDefectoTipoDatosNoLista": "",
+                "formato": "",
+                "listaCondicionesValidacion": null,
+                "copiarValorDelCampo": "",
+                "listaCondicionesActivacion": null,
+                "listaValoresParaTipoDatoLista": [
+                    {
+                        "descripcion": "100,00 euros",
+                        "listaCondicionesActivacion": [
+                            {
+                                "codigo": "R_46_",
+                                "listaValoresPermitidos": [
+                                    ""
+                                ],
+                                "operacion": "IN"
+                            }
+                        ],
+                        "codigo": "100",
+                        "clave_filtrado": "ES04600 - ALLC - RRA1 - 100",
+                        "esPorDefecto": true
+                    }
+                ],
+                "numeroDecimalesDatoNumerico": null,
+                "orden": 1,
+                "tipoDato": "lista",
+                "valorMaximoDatoNumerico": null
+            },
+            "listaCondicionesDescontratacionAutomatica": [],
+            "listaCondicionesContratacionAutomatica": [],
+            "necesitaGarantiaPrincipal": false,
+            "listaGarantiasAContratarAlDescontratar": [],
+            "listaGarantiasADescontratarAlDescontratar": [],
+            "orden": 2,
+            "articulo": ""
+        }
+    ],
+    "datosRiesgoProducto": [
+        {
+            "descripcion": "Límite de gastos",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "R_46_L-GASTOS",
+            "longitudMaximaTipoDatoAlfanumerico": 256,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "2000",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": [],
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "2.000,00 euros",
+                    "listaCondicionesActivacion": [],
+                    "codigo": "2000",
+                    "clave_filtrado": "2000",
+                    "esPorDefecto": true
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 1,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Límite de gastos para la mediación de conflictos",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "R_46_L-GASTOS-MEC",
+            "longitudMaximaTipoDatoAlfanumerico": 256,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "1500",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": [],
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "1.500,00 euros",
+                    "listaCondicionesActivacion": [],
+                    "codigo": "1500",
+                    "clave_filtrado": "1500",
+                    "esPorDefecto": true
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 2,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        },
+        {
+            "descripcion": "Límite libre elección",
+            "valorMinimoDatoNumerico": null,
+            "codigo": "R_46_L-LIBRE-ELEC",
+            "longitudMaximaTipoDatoAlfanumerico": 256,
+            "esOpcional": false,
+            "valorPorDefectoTipoDatosNoLista": "2000",
+            "formato": "",
+            "listaCondicionesValidacion": null,
+            "copiarValorDelCampo": null,
+            "listaCondicionesActivacion": [],
+            "listaValoresParaTipoDatoLista": [
+                {
+                    "descripcion": "2.000,00 euros",
+                    "listaCondicionesActivacion": [],
+                    "codigo": "2000",
+                    "clave_filtrado": "2000",
+                    "esPorDefecto": true
+                }
+            ],
+            "numeroDecimalesDatoNumerico": null,
+            "orden": 3,
+            "tipoDato": "lista",
+            "valorMaximoDatoNumerico": null
+        }
+    ]
+}
